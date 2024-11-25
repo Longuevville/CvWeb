@@ -6,15 +6,27 @@ body{
 
 .card-custom{
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction:column;
+    align-items:center;
     margin-bottom: 20px;
     transition: background-color 0.3s ease;
     text-align: center;
+   
 }
 
+
+.card-horizontal{
+    border-radius: 40px ;
+
+}
+
+.card-image .card-content p{
+    height: 40px;
+}
+
+
  .card-custom .card-highlight:hover{
-    background-color: rgb(255, 0, 179);
+    background-color: rgb(152, 114, 153);
 }
 
 
@@ -28,13 +40,15 @@ body{
 
 .card-custom .card-content{
     flex-grow: 1;
-    padding: 20px;
+    padding: 60px;
     text-align: center;
 }
 
 .card-title{
     font-weight: bold;
 }
+
+
 
 
 @media (min-width: 600px){
@@ -71,8 +85,9 @@ body{
 
     .container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        text-align: center;
     }
 
     .card-custom {
