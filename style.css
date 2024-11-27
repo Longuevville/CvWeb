@@ -1,6 +1,7 @@
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: 'cursive', sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
 
 .card-custom {
     display: flex; /* Flexbox pour les cartes */
-    flex-direction: column; /* Les cartes sont en colonne par défaut */
+    flex-direction: row; /* Les cartes sont en colonne par défaut */
     align-items: center; /* Centrer le contenu */
     margin-bottom: 20px;
     transition: background-color 0.3s ease;
@@ -29,17 +30,17 @@ body {
 }
 
 .card-custom .card-highlight:hover {
-    background-color: rgb(152, 114, 153);
+    background-color: rgb(47, 92, 218);
 }
 
 .card-custom .card-highlight {
     width: 100%;
     height: 5px;
-    background-color: #c9ccca;
+    background-color: #000000;
 }
 
 .card-custom .card-content {
-    flex-grow: 1;
+    flex-grow: 4;
     padding: 60px;
     text-align: center;
 }
